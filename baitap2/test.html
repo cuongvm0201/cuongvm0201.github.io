@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Album Ảnh</title>
+    <style>
+        div.img {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 200px;
+        } 
+        div.img:hover {
+            border: 1px solid #777;
+        }
+        div.img img {
+            width:100%;
+            height: auto;
+        }
+        div.desc {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="img">
+        <a href="/baitap2/nam-den-da.jpg" target="_blank">
+           <img src="/baitap2/nam-den-da.jpg">
+        </a>
+        <div class="desc">Giày Nam Màu Đen</div>
+    </div>
+    <div class="img">
+        <a href="/baitap2/nam-da-trang.jpg" target="_blank">
+           <img src="/baitap2/nam-da-trang.jpg">
+        </a>
+        <div class="desc">Giày Nam Màu Trắng</div>
+    </div>
+    <div class="img">
+        <a href="/baitap2/nam-vai-xanh.jpg" target="_blank">
+           <img src="/baitap2/nam-vai-xanh.jpg">
+        </a>
+        <div class="desc">Giày Nam Màu Xanh</div>
+    </div>
 </body>
 </html>
