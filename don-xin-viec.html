@@ -35,11 +35,11 @@
             color: #000000;
             font-style: normal;
             font-size: 1em;
-            font-weight:normal;
+            font-weight: normal;
         }
 
         .text {
-            font-size: 15px;
+            font-size: 14px;
             color: #2f3640;
             text-align: justify;
         }
@@ -47,20 +47,26 @@
         .camon {
             text-align: left;
             font-weight: bold;
-            font-size: 15px;
+            font-size: 14px;
         }
 
         .date {
-            text-align: right;
             font-weight: bold;
-            font-size: 15px;
+            font-size: 14px;
+            width: max-content;
+            margin-left: auto;
+            margin-right: 0;
         }
 
-        #signature {
+        .user {
+            text-align: center;
+        }
+
+        .chuky {
             font-style: italic;
             font-weight: normal;
         }
-        
+
 
         .link {
             text-decoration: none;
@@ -70,15 +76,14 @@
 
         #school {
             font-weight: bold;
-            font-size: 15px;
+            font-size: 14px;
         }
 
         #company {
             font-weight: bold;
-            font-size: 15px;
+            font-size: 14px;
         }
-
-       </style>
+    </style>
 </head>
 
 <body>
@@ -121,12 +126,13 @@
 
         <p class=camon>Xin chân thành cảm ơn và trân trọng kính chào!</p>
         <div class=date>
-        <p>Hà Nội, ngày 02 tháng 11 năm 2021</p>
+            <p>Hà Nội, ngày 02 tháng 11 năm 2021</p>
             <div class=user>
-            <p>Người làm đơn<br />
-            <span id=signature>(Ký và ghi rõ họ tên)</span>
-            </p>
+                <p>Người làm đơn </p>
+                <br />
+                <p class=chuky>(Ký và ghi rõ họ tên)</p>
             </div>
+
         </div>
     </div>
 </body>
