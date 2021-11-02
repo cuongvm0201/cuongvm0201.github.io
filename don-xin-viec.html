@@ -9,7 +9,7 @@
     <style>
         .tuyenngon {
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.2em;
             text-transform: uppercase;
             font-weight: bold;
         }
@@ -17,12 +17,11 @@
         h1 {
             color: #576574;
             text-align: center;
-            font-size: 1.5em;
-
+            font-size: 1em;
         }
 
         .default {
-            max-width: 1000px;
+            max-width: 794px;
             margin: auto;
         }
 
@@ -45,25 +44,33 @@
             text-align: justify;
         }
 
-        .date,
-        .user,
         .camon {
-            text-align: right;
+            text-align: left;
             font-weight: bold;
-            font-size: 1em;
+            font-size: 15px;
         }
 
-        .camon {
-            font-size: 18px;
+        .date {
+            text-align: right;
+            font-weight: bold;
+            font-size: 15px;
         }
 
         .user {
-            margin: 50px;
+            margin-left: 330px;
+            width: 50%;
         }
+
+        #signature {
+            font-style: italic;
+            font-weight: normal;
+            margin-left: 50px;
+        }
+        
 
         .link {
             text-decoration: none;
-            color: #48dbfb;
+            color: #10ac84;
             font-weight: bold;
         }
 
@@ -77,8 +84,7 @@
             font-size: 15px;
         }
 
-        
-    </style>
+       </style>
 </head>
 
 <body>
@@ -88,7 +94,7 @@
             Độc lập - Tự do - Hạnh phúc
         </p>
 
-        <p class=tuyenngon>.....o0o.....</p>
+        <p class=tuyenngon>.....***.....</p>
 
         <h1>ĐƠN ỨNG TUYỂN</h1>
 
@@ -120,13 +126,14 @@
             lịch phỏng vấn hay thông tin về hồ sơ ứng tuyển này, xin vui lòng liên lạc số điện thoại: ...</p>
 
         <p class=camon>Xin chân thành cảm ơn và trân trọng kính chào!</p>
-
-        <p class=date>Hà Nội, ngày 02 tháng 11 năm 2021</p>
-
-        <p class=user>
-            Người làm đơn<br />
-            Vũ Mạnh Cường
-        </p>
+        <div class=date>
+        <p>Hà Nội, ngày 02 tháng 11 năm 2021</p>
+            <div class=user>
+            <p>Người làm đơn<br />
+            <span id=signature>(Ký và ghi rõ họ tên)</span>
+            </p>
+            </div>
+        </div>
     </div>
 </body>
 
