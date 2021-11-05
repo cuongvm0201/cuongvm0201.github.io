@@ -1,0 +1,24 @@
+body {
+  background-color: gray;
+  color: white;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  background-color: #34465c;
+  display: flex;
+}
+
+.menu {
+  font-weight: bold;
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
