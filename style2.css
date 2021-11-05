@@ -2,23 +2,47 @@ body {
   background-color: gray;
   color: white;
   margin: 0;
+  height: 1000px;
 }
 .container {
   width: 100%;
   background-color: #34465c;
   display: flex;
+position: fixed;
+top:0;
+left:0;
 }
 
 .menu {
   font-weight: bold;
-  width: 20%;
   height: 50px;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 a {
   text-decoration: none;
   color: white;
 }
+a:hover { 
+    background : value;
+}
+
+.container1 {
+margin-top: 50px;
+background-color: green;
+height: 50px;
+
+}
+li {
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul {
+    flex-direction: row;
+    justify-content: space-around;
+    }
