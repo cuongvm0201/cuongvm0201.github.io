@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #6b6b83;
+}
+
+.container,
+.container1,
+.container2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  margin: 50px;
+  border: 1px solid gray;
+  width:max-content;
+}
