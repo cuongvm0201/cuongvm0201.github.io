@@ -6,9 +6,13 @@ body {
 .container,
 .container1,
 .container2 {
-  margin-top: 50px;
+  margin: 20px;
   display: flex;
   justify-content: center;
+}
+
+.container {
+  margin-top: 40px;
 }
 
 .box1,
@@ -20,7 +24,20 @@ body {
 .box7,
 .box8,
 .box9 {
-  margin: 50px;
-  border: 1px solid gray;
-  width:max-content;
+  margin: 20px;
+  margin-top: 0;
+  border: 3px solid white;
+  width: max-content;
+  max-height: min-content;
+}
+
+img {
+  width: 200px;
+  height: 100%;
+  transition: 1;
+}
+
+img:hover {
+  border: 3px solid #fff200;
+  transform: scale(1.5);
 }
