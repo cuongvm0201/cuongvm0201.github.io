@@ -1,4 +1,4 @@
-@media all and (min-width: 600px) {…}
+@media all and (min-width: 600px) {}
 @media all and (min-width: 1024px) {…}
 @media all and (min-width: 1280px) {…}
 body {
@@ -37,10 +37,11 @@ body {
 }
 
 img {
-  width: 200px;
+  width: 150px;
   height: 100%;
   display:block;
   transition: 0.5;
+  cursor:pointer;
 }
 
 img:hover {
