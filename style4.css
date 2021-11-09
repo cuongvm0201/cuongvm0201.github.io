@@ -1,40 +1,41 @@
 body {
-    margin:0;
-
+    margin: 0;
 }
+
 .logo {
     background-color: #7ed6df;
-    width:100%;
+    width: 100%;
     height: 50px;
     display: flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
 }
 
 img {
     width: 100px;
     height: auto;
+    margin-left: 10px;
 }
 
 ul li {
     list-style-type: none;
 }
 
-
-.main-menu > ul {
+.main-menu>ul {
     padding: 0;
     margin: 0;
 }
+
 .main-menu {
     display: flex;
     position: fixed;
-    top:50px;
-    left:0px;
+    top: 50px;
+    left: 0px;
     height: max-content;
 }
 
 a {
-    display:block;
+    display: block;
     text-decoration: none;
     color: #757575;
     font-size: 15px;
@@ -49,19 +50,16 @@ a {
     transition: 0.3s;
 }
 
-.dien-tu:hover, .phu-kien:hover, .gia-dung:hover, .suc-khoe:hover, .tap-hoa:hover, .thoi-trang:hover  {
+.dien-tu:hover, .phu-kien:hover, .gia-dung:hover, .suc-khoe:hover, .tap-hoa:hover, .thoi-trang:hover {
     background-color: white;
-
 }
 
-.dien-tu{
+.dien-tu {
     display: flex;
     position: relative;
 }
 
-
-
-.phu-kien{
+.phu-kien {
     display: flex;
 }
 
@@ -70,7 +68,7 @@ a {
     position: absolute;
     top: 0;
     left: 145px;
-    width:max-content;
+    width: max-content;
     transition: 0.3s;
     display: none;
 }
@@ -80,44 +78,51 @@ a {
     position: absolute;
     top: 0;
     left: 145px;
-    width:max-content;
+    width: max-content;
     transition: 0.3s;
     display: none;
-    
+}
+
+.sub-dien-tu>ul {
+    padding-inline-start: 15px;
+}
+
+.sub-phu-kien>ul {
+    padding-inline-start: 15px;
 }
 
 .main-menu .dien-tu:hover .sub-dien-tu {
-    display: block;
-    padding: 0;
+    display: flex;
 }
 
 .main-menu .phu-kien:hover .sub-phu-kien {
-    display: block;
-    padding: 0;
+    display: flex;
 }
 
-.dien-tu > i {
+.dien-tu>i {
     margin-left: 50px;
     position: absolute;
-    top:15px;
-    left:90px;
-    display:none;
-}
-
-.phu-kien > i {
-    margin-left: 50px;
-    position: absolute;
-    top:46px;
-    left:90px;
-    display:none;
+    top: 15px;
+    left: 90px;
     transition: 0.3s;
+    display: none;
+}
+
+.phu-kien>i {
+    margin-left: 50px;
+    position: absolute;
+    top: 46px;
+    left: 90px;
+    transition: 0.3s;
+    display: none;
 }
 
 .main-menu .dien-tu:hover i {
-    display:block;
+    display: block;
+    color: red;
 }
 
 .main-menu .phu-kien:hover i {
-    display:block;
+    display: block;
+    color: blue;
 }
-
