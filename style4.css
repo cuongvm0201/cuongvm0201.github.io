@@ -11,6 +11,11 @@ body {
     align-items: center;
 }
 
+img {
+    width: 100px;
+    height: auto;
+}
+
 ul li {
     list-style-type: none;
 }
@@ -41,7 +46,7 @@ a {
     padding-left: 10px;
     width: 100%;
     height: max-content;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .dien-tu:hover, .phu-kien:hover, .gia-dung:hover, .suc-khoe:hover, .tap-hoa:hover, .thoi-trang:hover  {
