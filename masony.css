@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: white;
+}
+
+/* clearfix */
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 200px;
+  padding: 10px;
+  position: relative;
+}
+.grid-item--width2 {
+  width: 400px;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}

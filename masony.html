@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASONY</title>
+    <link rel="stylesheet" href="./masony.css">
+</head>
+
+<body>
+    <h1>Masonry - columnWidth</h1>
+
+    <div class="grid">
+        <div class="grid-item"> <img src="https://i.pinimg.com/236x/c9/a6/fb/c9a6fbd135a0c1f7b786941f03ab3053.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/a6/fb/c9a6fbd135a0c1f7b786941f03ab3053.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/a6/fb/c9a6fbd135a0c1f7b786941f03ab3053.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/a6/fb/c9a6fbd135a0c1f7b786941f03ab3053.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/a6/fb/c9a6fbd135a0c1f7b786941f03ab3053.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/a6/fb/c9a6fbd135a0c1f7b786941f03ab3053.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/49/67/c9496796eaf12ae666e2076a33ad99f5.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/49/67/c9496796eaf12ae666e2076a33ad99f5.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/49/67/c9496796eaf12ae666e2076a33ad99f5.jpg" />
+        </div>
+        <div class="grid-item"><img src="https://i.pinimg.com/236x/c9/49/67/c9496796eaf12ae666e2076a33ad99f5.jpg" />
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid');
+        var msnry = new Masonry(elem, {
+            itemSelector: '.grid-item',
+            columnWidth: 300,
+        });
+
+
+        var msnry = new Masonry('.grid', {
+
+        });
+    </script>
+    <script>
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+            columnWidth: 160
+        });
+    </script>
+</body>
+
+</html>
