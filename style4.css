@@ -147,17 +147,20 @@ a {
     display: none;
 }
 
-.main-menu .dien-tu:hover i {
+ .dien-tu:hover i, .phu-kien:hover i, .gia-dung:hover i {
     display: block;
     color: red;
 }
 
-.main-menu .phu-kien:hover i {
-    display: block;
-    color: blue;
+
+.sub-dien-tu li:hover {
+    background-color: #d1d8e0;
 }
 
-.main-menu .gia-dung:hover i {
-    display: block;
-    color: purple;
+.sub-gia-dung li:hover {
+    background-color: #d1d8e0;
+}
+
+.sub-phu-kien li:hover {
+    background-color: #d1d8e0;
 }
