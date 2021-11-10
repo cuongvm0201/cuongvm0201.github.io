@@ -40,21 +40,22 @@ ul li {
 a {
     display: block;
     text-decoration: none;
+    font-family: Roboto-Regular;
     color: #757575;
-    font-size: 18px;
-    padding-top: 15px;
+    font-size: 15px;
+    padding: 10px;
 }
 
 .dien-tu, .phu-kien, .gia-dung, .suc-khoe, .tap-hoa, .thoi-trang, .gia-dung {
     padding-left: 10px;
-    background-color: #f7d794;
     width: 100%;
     height: max-content;
     transition: 0.3s;
 }
 
 .dien-tu:hover, .phu-kien:hover, .gia-dung:hover, .suc-khoe:hover, .tap-hoa:hover, .thoi-trang:hover {
-    background-color: white;
+    background-color: #d1d8e0;
+    color: #eb4d4b;
 }
 
 .dien-tu {
@@ -97,15 +98,15 @@ a {
 }
 
 .sub-dien-tu>ul {
-    padding-inline-start: 44px;
+    padding-inline-start: 30px;
 }
 
 .sub-phu-kien>ul {
-    padding-inline-start: 44px;
+    padding-inline-start: 30px;
 }
 
 .sub-gia-dung>ul {
-    padding-inline-start: 44px;
+    padding-inline-start: 30px;
 }
 
 .main-menu .dien-tu:hover .sub-dien-tu {
@@ -123,8 +124,8 @@ a {
 .dien-tu>i {
     margin-left: 50px;
     position: absolute;
-    top: 18px;
-    left: 123px;
+    top: 12px;
+    left: 115px;
     transition: 0.3s;
     display: none;
 }
@@ -132,8 +133,8 @@ a {
 .phu-kien>i {
     margin-left: 50px;
     position: absolute;
-    top: 54px;
-    left: 123px;
+    top: 48px;
+    left: 115px;
     transition: 0.3s;
     display: none;
 }
@@ -141,26 +142,29 @@ a {
 .gia-dung>i {
     margin-left: 50px;
     position: absolute;
-    top: 89px;
-    left: 123px;
+    top: 85px;
+    left: 115px;
     transition: 0.3s;
     display: none;
 }
 
  .dien-tu:hover i, .phu-kien:hover i, .gia-dung:hover i {
     display: block;
-    color: red;
+    color: #f36d00;
 }
 
 
-.sub-dien-tu li:hover {
+.sub-dien-tu li:hover a {
     background-color: #d1d8e0;
+    color: #f36d00;
 }
 
-.sub-gia-dung li:hover {
+.sub-gia-dung li:hover a {
     background-color: #d1d8e0;
+    color: #f36d00;
 }
 
-.sub-phu-kien li:hover {
+.sub-phu-kien li:hover a {
     background-color: #d1d8e0;
+    color: #f36d00;
 }
