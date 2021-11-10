@@ -1,170 +1,193 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .logo {
-    background-color: #48dbfb;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  background-color: #48dbfb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 img {
-    width: 120px;
-    
-    margin-left: 10px;
+  width: 120px;
+
+  margin-left: 10px;
 }
 
 ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.main-menu>ul {
-    padding: 0;
-    margin: 0;
+.main-menu > ul {
+  padding: 0;
+  margin: 0;
 }
 
 .main-menu {
-    display: flex;
-    position: fixed;
-    top: 50px;
-    left: 0px;
-    height: max-content;
+  display: flex;
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  height: max-content;
 }
 
 a {
-    display: block;
-    text-decoration: none;
-    font-family: Roboto-Regular;
-    color: #757575;
-    font-size: 15px;
-    padding: 10px;
+  display: block;
+  text-decoration: none;
+  font-family: Roboto-Regular;
+  color: #757575;
+  font-size: 15px;
+  padding: 10px;
 }
 
-.dien-tu, .phu-kien, .gia-dung, .suc-khoe, .tap-hoa, .thoi-trang, .gia-dung {
-    padding-left: 10px;
-    width: 100%;
-    height: max-content;
-    transition: 0.3s;
+.dien-tu,
+.phu-kien,
+.gia-dung,
+.suc-khoe,
+.tap-hoa,
+.thoi-trang,
+.gia-dung {
+  padding-left: 10px;
+  width: 100%;
+  height: max-content;
+  transition: 0.3s;
 }
 
-.dien-tu:hover, .phu-kien:hover, .gia-dung:hover, .suc-khoe:hover, .tap-hoa:hover, .thoi-trang:hover {
-    background-color: #d1d8e0;
-    color: #eb4d4b;
+.dien-tu:hover,
+.phu-kien:hover,
+.gia-dung:hover,
+.suc-khoe:hover,
+.tap-hoa:hover,
+.thoi-trang:hover {
+  background-color: #d1d8e0;
+  color: #eb4d4b;
 }
 
 .dien-tu {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .phu-kien {
-    display: flex;
+  display: flex;
 }
 
 .sub-dien-tu {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 145px;
-    width: max-content;
-    transition: 0.3s;
-    display: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: max-content;
+  transition: 0.3s;
+  display: none;
 }
 
 .sub-phu-kien {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 145px;
-    width: max-content;
-    transition: 0.3s;
-    display: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: max-content;
+  transition: 0.3s;
+  display: none;
 }
 
 .sub-gia-dung {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 145px;
-    width: max-content;
-    transition: 0.3s;
-    display: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: max-content;
+  transition: 0.3s;
+  display: none;
 }
 
-.sub-dien-tu>ul {
-    padding-inline-start: 30px;
+.sub-dien-tu > ul {
+  padding-inline-start: 40px;
 }
 
-.sub-phu-kien>ul {
-    padding-inline-start: 30px;
+.sub-phu-kien > ul {
+  padding-inline-start: 40px;
 }
 
-.sub-gia-dung>ul {
-    padding-inline-start: 30px;
+.sub-gia-dung > ul {
+  padding-inline-start: 40px;
 }
 
 .main-menu .dien-tu:hover .sub-dien-tu {
-    display: flex;
+  display: flex;
 }
 
 .main-menu .phu-kien:hover .sub-phu-kien {
-    display: flex;
+  display: flex;
 }
 
 .main-menu .gia-dung:hover .sub-gia-dung {
-    display: flex;
+  display: flex;
 }
 
-.dien-tu>i {
-    margin-left: 50px;
-    position: absolute;
-    top: 12px;
-    left: 115px;
-    transition: 0.3s;
-    display: none;
+.dien-tu > i {
+  margin-left: 50px;
+  font-size: 15px;
+  position: absolute;
+  top: 12px;
+  left: 130px;
+  transition: 0.3s;
+  display: none;
 }
 
-.phu-kien>i {
-    margin-left: 50px;
-    position: absolute;
-    top: 48px;
-    left: 115px;
-    transition: 0.3s;
-    display: none;
+.phu-kien > i {
+  margin-left: 50px;
+  font-size: 15px;
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  transition: 0.3s;
+  display: none;
 }
 
-.gia-dung>i {
-    margin-left: 50px;
-    position: absolute;
-    top: 85px;
-    left: 115px;
-    transition: 0.3s;
-    display: none;
+.gia-dung > i {
+  margin-left: 50px;
+  font-size: 15px;
+  position: absolute;
+  top: 87px;
+  left: 130px;
+  transition: 0.3s;
+  display: none;
 }
 
- .dien-tu:hover i, .phu-kien:hover i, .gia-dung:hover i {
+.dien-tu:hover i,
+.phu-kien:hover i,
+.gia-dung:hover i {
+  display: block;
+  color: #f36d00;
+}
+ul>.dien-tu>a, ul>.phu-kien>a, ul>.gia-dung>a {
     display: block;
+}
+ul>.dien-tu>a:hover, ul>.phu-kien>a:hover, ul>.gia-dung>a:hover  {
     color: #f36d00;
+    background-color: #d1d8e0;
 }
 
 
 .sub-dien-tu li:hover a {
-    background-color: #d1d8e0;
-    color: #f36d00;
+  background-color: #d1d8e0;
+  color: #f36d00;
 }
 
 .sub-gia-dung li:hover a {
-    background-color: #d1d8e0;
-    color: #f36d00;
+  background-color: #d1d8e0;
+  color: #f36d00;
 }
 
 .sub-phu-kien li:hover a {
-    background-color: #d1d8e0;
-    color: #f36d00;
+  background-color: #d1d8e0;
+  color: #f36d00;
 }
