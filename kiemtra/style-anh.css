@@ -1,14 +1,25 @@
 body {
     background-color: #c8d6e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.noidung{
+    justify-content: center;
+}
 h1 {
     color:#3B3B98;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 span {
     font-weight: bold;
-    color: #ffa801;
+    color: #0984e3;
 }
 
 ul li {
@@ -23,12 +34,20 @@ ul {
 .back >a {
     text-decoration: none;
     color: #10ac84;
-    font-size: 20px;
+    font-size: 50px;
     position: fixed;
     bottom: 20px;
-    right: 10px;
+    left: 10px;
 }
 
+img {
+    width: 800px;
+    height: 100%;
+}
+
+.khung {
+    width: 800px;
+}
 
 
 

@@ -15,6 +15,7 @@
     margin: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
   }
   
@@ -43,7 +44,7 @@
   .hoa5,
   .hoa6 {
       text-align: center;
-      padding-top: 10px;
+      padding-top: 20px;
   }
 
   a {
@@ -58,7 +59,7 @@
   img {
     width: 300px;
     height: 100%;
-    display:block;
+    display: block;
     transition: 0.3s;
     border: 2px solid #ffffff;
     cursor: pointer;
@@ -70,3 +71,5 @@
     transform: scale(1.1);
   }
   
+
+
